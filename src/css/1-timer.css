@@ -1,81 +1,81 @@
 #datetime-picker {
-     font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.04em;
-color: #2e2f42;
-  padding: 10px;
-  border-radius: 4px;
-  border: 1px solid #ccc;
-  width: 247px;
-  margin-right: 8px;
-  background: #fff;
+     font-size: 16px;
+     line-height: 1.5;
+     letter-spacing: 0.04em;
+     color: #2e2f42;
+     padding: 10px;
+     border-radius: 4px;
+     border: 1px solid #ccc;
+     width: 247px;
+     margin-right: 8px;
+     background: #fff;
 }
 
 #datetime-picker:disabled {
-color: #808080;
-background: #fafafa;
+     color: #808080;
+     background: #fafafa;
 }
 
 #datetime-picker:hover {
-border: 1px solid #4e75ff;
+     border: 1px solid #4e75ff;
 }
 
 button[data-start]:disabled {
      font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.04em;
-color: #989898;
-  background: #cfcfcf;
-  cursor: not-allowed;
+     font-size: 16px;
+     line-height: 1.5;
+     letter-spacing: 0.04em;
+     color: #989898;
+     background: #cfcfcf;
+     cursor: not-allowed;
 }
 
 button[data-start] {
-color: #fff;
-  padding: 8px 16px;
-  font-size: 16px;
-  border: none;
-  border-radius: 8px;
-  width: 75px;
-height: 40px;
-
-  background: #4e75ff;
-  color: white;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+     color: #fff;
+     padding: 8px 16px;
+     font-size: 16px;
+     border: none;
+     border-radius: 8px;
+     width: 75px;
+     height: 40px;
+     
+     background: #4e75ff;
+     color: white;
+     cursor: pointer;
+     transition: background-color 0.3s ease;
 }
 
 button[data-start]:hover {
- background: #6c8cff;
+     background: #6c8cff;
 }
 
 .timer {
-  display: flex;
-  justify-content: center;
-  gap: 24px;
-  margin-top: 32px;
+     display: flex;
+     justify-content: center;
+     gap: 24px;
+     margin-top: 32px;
 }
 
 .field {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
 }
 
 .value {
-font-weight: 400;
-font-size: 40px;
-line-height: 1.2;
-letter-spacing: 0.04em;
-color: #2e2f42;
+     font-weight: 400;
+     font-size: 40px;
+     line-height: 1.2;
+     letter-spacing: 0.04em;
+     color: #2e2f42;
 }
 
 .label {
-  margin-top: 5px;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-color: #2e2f42;
-  text-transform: uppercase;
+     margin-top: 5px;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 1.5;
+     color: #2e2f42;
+     text-transform: uppercase;
+     font-weight: 400;
 }  
